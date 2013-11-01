@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="org.apache.cordova.plugin.phonenavigator"
+      version="0.1.0">
+    <name>PhoneNavigator</name>
+    <description>Sample PhoneGap PhoneNavigator Plugin</description>
+    <keywords>phonegap,navigator</keywords>
+
+
+    <js-module src="www/phonenavigator.js" name="Calendar">
+        <clobbers target="window.phonenavigator" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PhoneNavigator">
+                <param name="android-package" value="org.apache.cordova.plugin.PhoneNavigator"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/PhoneNavigator.java" target-dir="src/org/apache/cordova/plugin/phonenavigator" />
+     </platform>
+</plugin>
