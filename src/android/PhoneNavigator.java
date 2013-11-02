@@ -7,7 +7,7 @@
 
 package org.apache.cordova.plugin;
 
-import org.apache.cordova.api.PluginResult.Status;
+import org.apache.cordova.PluginResult.Status;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,9 +16,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
-import org.apache.cordova.api.CallbackContext;
-import org.apache.cordova.api.CordovaInterface;
-import org.apache.cordova.api.CordovaPlugin;
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaInterface;
+import org.apache.cordova.CordovaPlugin;
 
 public class PhoneNavigator extends CordovaPlugin {
 
