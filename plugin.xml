@@ -8,8 +8,7 @@
     <keywords>phonegap,navigator</keywords>
 
 
-    <js-module src="www/phonenavigator.js" name="Calendar">
-        <clobbers target="window.phonenavigator" />
+    <js-module src="www/phonenavigator.js" name="PhoneNavigator">
     </js-module>
 
     <!-- android -->
