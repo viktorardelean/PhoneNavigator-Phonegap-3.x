@@ -19,6 +19,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/PhoneNavigator.java" target-dir="src/org/apache/cordova/plugin/phonenavigator" />
+        <source-file src="src/android/PhoneNavigator.java" target-dir="src/org/apache/cordova/plugin" />
      </platform>
 </plugin>
