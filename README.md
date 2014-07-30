@@ -14,25 +14,23 @@ Copy "cordova.js" from the repo (www/cordova.js) in your app (ex: yourapp/www)
 include "cordova.js" in you app:
 How to use it:
 
-<code>
-//function declaration
-function navigateTo (lat, lon, successFn, errorFn) {
-    cordova.require('cordova/plugin/phonenavigator').doNavigate(lat, lon, successFn, errorFn);
-}
-
-//set lat and lon variables. Most probably read them from the UI
-var latitude =  48.137607;
-var longitude = 11.568569;
-
-//call function
-navigateTo(
-    latitude,
-    longitude,
-    function(){
-        console.log("Successfully opened navigator");
-    },
-    function(){
-        console.log("Error opening navigator");
-    }
-);
-</code>
+```//function declaration
+```function navigateTo (lat, lon, successFn, errorFn) {
+```    cordova.require('cordova/plugin/phonenavigator').doNavigate(lat, lon, successFn, errorFn);
+```}
+```
+```//set lat and lon variables. Most probably read them from the UI
+```var latitude =  48.137607;
+```var longitude = 11.568569;
+```
+```//call function
+```navigateTo(
+```    latitude,
+```    longitude,
+```    function(){
+```        console.log("Successfully opened navigator");
+```    },
+```    function(){
+```        console.log("Error opening navigator");
+```    }
+```);
