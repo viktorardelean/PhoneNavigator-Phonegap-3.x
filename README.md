@@ -1,9 +1,9 @@
 PhoneNavigator-Phonegap-3.x
 ===========================
 
-Phonegap native navigation for Phonegap 3.x
+#Phonegap native navigation for Phonegap 3.x
 
-How to integrate it in your Phonegap 3.x project:
+##How to integrate it in your Phonegap 3.x project:
 
 Open a console window
 Go to your Phonegap app root
@@ -12,7 +12,8 @@ Copy "phonenavigator.js" from the repo (www/phonenavigator.js) in your app (ex: 
 include "phonenavigator.js" in you app:
 Copy "cordova.js" from the repo (www/cordova.js) in your app (ex: yourapp/www)
 include "cordova.js" in you app:
-How to use it:
+
+##How to use it:
 
 ```
 //function declaration
