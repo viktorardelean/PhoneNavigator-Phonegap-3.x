@@ -10,7 +10,7 @@ Open a console window
 * Then execute: phonegap local plugin add https://github.com/viktor0710/PhoneNavigator-Phonegap-3.x.git
 * Copy "phonenavigator.js" from the repo (www/phonenavigator.js) in your app (ex: yourapp/www)
 * Include "phonenavigator.js" in you app
-* Copy "cordova.js" from the repo (www/cordova.js) in your app (ex: yourapp/www)
+* Copy "cordova.js" from the repo (lib/cordova.js) in your app (ex: yourapp/www)
 * Include "cordova.js" in you app
 
 ##How to use it:
